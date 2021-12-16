@@ -11,7 +11,7 @@ do {
     //condizione da eseguire 
     let numeriUtente = parseInt(prompt("inserici numero")); //creo una variabile che chiede all utente di inserire i numeri tramite prompt
     arrayVuoto.push(numeriUtente) //pusho i numeri chiesti dall utente nell array
-    sommaNumeri += arrayVuoto[i]
+    sommaNumeri = sommaNumeri + arrayVuoto[i]
     i++;
 
     //istruzioni per terminare il ciclo 
@@ -19,8 +19,7 @@ do {
   
 console.log(arrayVuoto) //console log per vedere i numeri che sono stati pushati nel array
 console.log(sommaNumeri) //console log per vedere i numeri dell array sommati
-
-
+document.getElementById("demo").innerHTML = sommaNumeri;
 
 
 
