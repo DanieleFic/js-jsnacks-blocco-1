@@ -11,8 +11,8 @@ do {
     //condizione da eseguire 
     let numeriUtente = parseInt(prompt("inserici numero")); //creo una variabile che chiede all utente di inserire i numeri tramite prompt
     arrayVuoto.push(numeriUtente) //pusho i numeri chiesti dall utente nell array
-    sommaNumeri = sommaNumeri + arrayVuoto[i]
-    i++;
+    sommaNumeri = sommaNumeri +numeriUtente
+    
 
     //istruzioni per terminare il ciclo 
   } while (sommaNumeri < 50 ); // il ciclo si ferma quando il risultato dei numeri dell array diventa 50
